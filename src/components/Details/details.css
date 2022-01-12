@@ -1,0 +1,85 @@
+.inner-container{
+    padding: 10px;
+}
+.main-image{
+    border-radius: 8px;
+}
+.address{
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+.email{
+    text-transform: lowercase;
+}
+.menu-img{
+    height: 205px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.menu-card{
+    box-shadow: 4px 4px 8px #979797;
+    border-radius: 8px;
+    height: 400px;
+    margin: 10px 0;
+    position: relative;
+}
+.menu-card p{
+    margin: 0;
+}
+.card-content{
+    padding: 10px;
+}
+.rupee{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0 4px 0 4px;
+}
+.plus{
+    margin-right: 4px;
+}
+.btn-aria{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-type{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 8px;
+}
+.card-footr{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.rating-value{
+    padding: 0px 16px;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 6px;
+    font-weight: 600;
+}
+.cost-txt{
+    font-size: 18px;
+    font-weight: 600;
+}
+.cost-value{
+    font-size: 20px;
+    font-weight: 600;   
+}
+.rating-box{
+    margin: 0;
+}
+.menu-id{
+    color: #000;
+    font-weight: 600;
+    padding: 0px 4px 0 0;
+}
+.carusel-img{
+    height: 140px;
+    border-radius: 8px;
+}

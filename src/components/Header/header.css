@@ -1,0 +1,167 @@
+.header-section{
+    background-image: url("https://i.ibb.co/3dh2ZXf/bg-main-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-section .top-content{
+    display: flex;
+    justify-content: center;
+}
+.header-section .head{
+    max-width: 1120px;
+    width: 100%;
+    padding-top: 20px;
+}
+.header-section .main-logo{
+    font-size: 34px;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+}
+.header-section .user{
+    display: flex;
+    align-items: center;
+}
+.header-section .user span:first-child{
+    margin-right: 30px;
+}
+.header-section .user span a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+.header-section .laptop-menu{
+    justify-content: space-between;
+    display: none;
+}
+.header-section .bottom-content{
+    display: flex;
+    justify-content: center;
+}
+.header-section .bottom-content h1{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    margin-top: 82px;
+    font-weight: 800;
+    font-style: italic;
+}
+.header-section .bottom-content h3{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+.header-section .search{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 0 70px;
+}
+.header-section .bottom-content .content{
+    display: flex;
+    flex-direction: column;
+    max-width: 528px;
+}
+.header-section .search .select-box{
+    position: relative;
+    width: 100%;
+}
+.header-section .search .select-box select{
+    height: 40px;
+    padding: 0 0 0 38px;
+    outline: none;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+}
+.menu-icon{
+    font-size: 28px;
+    color: #fff;
+}
+.header-section .search .search-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.header-section .mobile-menu{
+    display: block;
+    color: #fff;
+}
+.search .select-box .icon, .search .search-box .icon{
+    position: absolute;
+    top: 0;
+    margin-left: 8px;
+    font-size: 25px;
+}
+.search-box .vertical-line{
+    position: absolute;
+    display: none;
+    width: 1px;
+    height: 25px;
+    background: grey;
+    z-index: 1;
+    top: 7px;
+}
+.select-dish{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    padding: 4px;
+    margin-top: 10px;
+}
+.home{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.header-section .mobile-menu{
+    display: block;
+    color: #fff;
+}
+@media screen and (min-width: 576px){
+    .header-section .bottom-content h1{
+        font-size: 80px;
+        margin-top: 20px;
+    }
+    
+}
+@media screen and (min-width: 768px){
+    .select-dish{
+        margin-top: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .header-section .laptop-menu{
+        display: flex;
+    }
+    .header-section .mobile-menu{
+        display: none;
+    }
+    .header-section .search{
+        flex-direction: row;
+    }
+    .header-section .search .select-box{
+        width: 60%;
+        
+    }
+    .header-section .search .select-box select{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .header-section .search .search-box{
+        margin-top: 0;
+    }
+    .header-section .search .search-box input{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .search-box .vertical-line{
+        display: block;
+    }
+}

@@ -1,0 +1,68 @@
+.app-section{
+    background: #fff;
+    padding: 40px 0;
+}
+.app-section h1{
+    text-align: center;
+}
+.app-section p{
+    text-align: center;
+    font-size: 18px;
+}
+.app-section .radio-btn{
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.app-section .icons{
+    display: flex;
+    justify-content: center;
+}
+.app-section .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textAlignRight{
+    text-align: right;
+}
+.mobile-image{
+    display: none;
+}
+.radio-btn .form-check:last-child{
+    margin-left: 44px;
+}
+.mobile-btn{
+    margin-left: 20px;
+    display: block;
+}
+.desktop-btn{
+    display: none;
+    margin: 10px 0;
+    font-size: 14px;
+    min-width: 164px;
+    width: 164px;
+}
+.marginLeft14{
+    margin-left: 14px;
+}
+@media screen and (min-width: 768px){
+    .app-section p{
+        text-align: left;
+    }
+    .app-section h1{
+        text-align: left;
+    }
+    .mobile-image{
+        display: block;
+    }
+    .app-section .icons{
+        justify-content: left;
+    }
+    .mobile-btn{
+        display: none;
+    }
+    .desktop-btn{
+        display: block;
+    }
+}

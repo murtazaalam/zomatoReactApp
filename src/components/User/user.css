@@ -1,0 +1,223 @@
+.form-aria{
+    width: auto;
+    margin-top: 20px;
+}
+.signup-modal h5{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center
+}
+.signup-modal .already-account{
+    font-size: 14px;
+    text-align: center;
+    color: #696969;
+    margin-bottom: 15px;
+}
+.signup-modal .already-account a{
+    position: relative;
+    text-decoration: none;
+    color: #252525;
+    font-weight: 600;
+    border-bottom: 1px solid #ababab;
+}
+.signup-modal .already-account a .line{
+    height: 1px;
+    width: 0%;
+    background: #252525;
+    position: absolute;
+    left: 1%;
+    transition: width 0.3s;
+}
+.signup-modal .already-account a:hover .line{
+    width: 100%;
+}
+.signup-modal form label{
+    font-size: 13px;
+    font-weight: 600;
+    color: #7a7a7a;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.signup-modal form input[type="text"], .signup-modal input[type="password"],
+.signup-modal input[type="email"], .signup-modal input[type="number"]{
+    background: #f8f8f8;
+    border-color: #f8f8f8;
+    color: #252525;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2.5;
+    transition: 0.3s;
+}
+.signup-modal form input::placeholder{
+    color: #ababab;
+}
+.signup-modal .modal .modal-body{
+    padding: 0 50px 0 50px;
+}
+.signup-modal form .error{
+    font-size: 12px;
+    margin-top: 4px;
+    color: #cf202d;
+    display: none;
+    margin-bottom: 0;
+    position: absolute;
+}
+.signup-modal form .form-control:focus{
+    box-shadow: none;
+    color: #212529;
+    background-color: #fff;
+    border-color: #88797a;
+    outline: 0;
+}
+.signup-modal .tnc-check{
+    margin: 44px 0 25px 0;
+    width: fit-content;
+    transition: 0.3s;
+}
+.signup-modal .tnc-check span a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #7a7a7a;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.signup-modal input[type="checkbox"]{
+    transition: 0.3s;
+    cursor: pointer;
+}
+.signup-modal input[type="checkbox"]:focus{
+    box-shadow: none;
+}
+.signup-modal .tnc-check:hover input[type="checkbox"]{
+    border-color: #0071dc;
+}
+.signup-modal .close{
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    font-weight: 700;
+    color: #000;
+}
+.signup-modal form button{
+    width: 100%;
+    border: none;
+    background: #cf202d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    height: 52px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.signup-modal form button:hover{
+    background: #ffc221;
+    border-color: #ffc221;
+    color: #031f42;
+}
+.signup-modal form .password{
+    position: relative;
+}
+.signup-modal form .password .icon{
+    position: absolute;
+    right: 20px;
+    top: 29%;
+    color: #696969;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.signup-modal form .password .icon:hover{
+    color: #0071dc;
+}
+.signup-modal form .password .strength{
+    margin-top: 4px;
+    display: none;
+    width: 100%;
+    padding-right: 23px;
+    position: absolute;
+}
+.signup-modal form .password .strength p{
+    font-size: 12px;
+    color: #cf202d;
+    margin: 0;
+}
+.signup-modal form .password .strength .stren-line{
+    width: 100%;
+    height: 2px;
+    background: #cf202d;
+}
+.signup-modal form .password .forgot-p{
+    font-size: 14px;
+    float: right;
+    cursor: pointer;
+    color: #252525;
+    font-weight: 600;
+    margin-top: 4px;
+    display: none;
+    text-decoration: none;
+}
+.signup-modal .modal-footer .login-by-social{
+    display: none;
+}
+.signup-modal .modal-footer .login-by-social h2{
+    font-size: 18px;
+    color: #252525;
+    font-weight: 600;
+}
+.signup-modal .modal-footer{
+    display: block;
+    text-align: center;
+    padding-top: 0;
+}
+.signup-modal .login-by-social span{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.signup-modal .login-by-social .g-icon{
+    background: #fff;
+    color: #cf202d;
+    padding: 0px 4px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 26px;
+}
+.signup-modal .login-by-social button{
+    width: 100%;
+    min-height: 52px;
+    border: 1px solid;
+    border-color: #f8f8f8;
+    border-radius: 4px;
+    color: #fff;
+    background: #1777f2;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.signup-modal .login-by-social .g-btn{
+    background: #cf202d;
+    margin-top: 12px;
+}
+.signup-modal .login-by-social button:hover{
+    background: #ffc221;
+}
+.btn-register{
+    margin-top: 24px;
+}
+.messg{
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+@media screen and (min-width: 1200px){
+    .form-aria{
+        width: 50%;
+        box-shadow: 2px 4px 12px grey;
+        padding: 20px;
+    }
+    .signup-modal{
+        display: flex;
+        justify-content: center;
+    }
+}

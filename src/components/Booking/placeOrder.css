@@ -1,0 +1,57 @@
+.order-form{
+    margin-top: 20px;
+}
+.header-txt{
+    background-color: #0dcef0;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0 !important;
+}
+.order-item{
+    display: inline-block;
+    margin: 4px;
+    
+}
+.item-image{
+    height: 100%;
+    border-radius: 8px;
+}
+.order-item h4{
+    font-size: 16px;
+    margin: 8px;
+}
+.image-box{
+    width: 100%;
+    height: 146px;
+}
+.item-box{
+    margin-top: 10px;
+}
+.order-aria{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.order-aria p{
+    margin: 0 12px 0 0;
+}
+.price-txt{
+    font-weight: 600;
+    margin-right: 4px;
+}
+.card-body .form-control:focus{
+    box-shadow: none;
+}
+.error{
+    text-align: center;
+    color: red;
+    font-weight: 600;
+}
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
